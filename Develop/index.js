@@ -47,7 +47,7 @@ const questions = [
     //
     when: ({ confirmInstallation }) => {
       if (confirmInstallation) {
-        return true;
+        return confirmInstallation;
       } else {
         return false;
       }
@@ -62,7 +62,7 @@ const questions = [
   {
     //if confirmed
     type: "input",
-    name: "instructions",
+    name: "usage",
     message: "Please enter your usage for using your application: ",
     when: ({ confirmUsage }) => {
       if (confirmUsage) {
@@ -128,7 +128,7 @@ const questions = [
   //get username
   {
     type: "input",
-    name: "username",
+    name: "github",
     message: "What is your GitHub username? (Required)",
     validate: (userInput) => {
       if (userInput) {
@@ -182,10 +182,11 @@ const createReadMe = util.promisify(writeToFile);
 async function init() {
   try {
     const userAnswers = await inquirer.prompt(questions);
-    console.log("Your README file has been made!", userAnswers);
+    console.log("Your README file has been made!");
     // get markdown template from generateMarkdown.js passing the answers as parameter
     const myMarkdown = generateMarkdown(userAnswers);
-    console.log(myMarkdown);
+    // for test
+    // console.log(myMarkdown);
     //write the readme file after the markdown is made
     await createReadMe("README1.md", myMarkdown);
   } catch (error) {

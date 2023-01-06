@@ -1,4 +1,5 @@
-# test app
+# repo
+  
   ## Licensing:
   [![license](https://img.shields.io/badge/license-undefined-blue)](https://shields.io)
   ## Table of Contents 
@@ -8,18 +9,25 @@
   - [Contribution](#contribution)
   - [Testing](#testing)
   - [Additional Info](#additional-info)
+
   ## Description:
-  no description
+  description
+
   ## Installation:
-  no installation
+  installation
+
   ## Usage:
-  undefined
+  usage
+
   ## License:
-  undefined
+  MIT
+
   ## Contribution:
-  people
+  none
+
   ## Testing:
-  it's working
-  ## Additional Info:
-  - Github: [undefined](https://github.com/undefined)
-  - Email: jasonccfu@gmail.com 
+  test
+
+  ## Question:
+  - Github: [usermname](https://github.com/usermname)
+  - Email: adskasj@gmail.com 
