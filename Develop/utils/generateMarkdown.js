@@ -14,37 +14,36 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
   
-  ## Licensing:
-  [![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
-  ## Table of Contents 
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Testing](#testing)
-  - [Additional Info](#additional-info)
+## Table of Contents 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#how to contribute)
+- [Tests](#tests)
+- [Question](#question)
 
-  ## Description:
-  ${data.description}
+## Description
+${data.description}
 
-  ## Installation:
-  ${data.installation}
+## Installation
+${data.installation}
 
-  ## Usage:
-  ${data.usage}
+## Usage
+${data.usage}
 
-  ## License:
-  ${data.license}
+## License
+[![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
 
-  ## Contribution:
-  ${data.contribution}
+## How to Contribute
+${data.contribution}
 
-  ## Testing:
-  ${data.testing}
+## Tests
+${data.testing}
 
-  ## Question:
-  - Github: [${data.github}](https://github.com/${data.github})
-  - Email: ${data.email} `;
+## Question
+- If you have any question, please ${data.questions}.
+- Github: [${data.github}](https://github.com/${data.github})
+- Email: ${data.email} `;
 }
 
 module.exports = generateMarkdown;
