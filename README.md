@@ -28,5 +28,5 @@ node index.js
 
 ## Question
 - If you have any question, please feel free to email me
-- Github: [jasonccfu](https://github.com/jasonccfu)
+- Github: [Jasonccfu](https://github.com/Jasonccfu)
 - Email: jason.ccfu@gmail.com 
