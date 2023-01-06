@@ -4,7 +4,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#how to contribute)
+- [Contribution](#how)
 - [Tests](#tests)
 - [Question](#question)
 
