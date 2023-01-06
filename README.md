@@ -15,7 +15,7 @@ It's a usefor tool for readme file
 npm
 
 ## Usage
-picture later
+Walkthrough Video view link here - [Screencastify](https://watch.screencastify.com/v/DGb4sxwvFNVD2JEVtTP0)
 
 ## License
 [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
@@ -27,6 +27,6 @@ undefined
 it's good
 
 ## Question
-- If you have any question, please feel free to email me..
+- If you have any question, please feel free to email me
 - Github: [jasonccfu](https://github.com/jasonccfu)
 - Email: jason.ccfu@gmail.com 

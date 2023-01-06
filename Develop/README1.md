@@ -9,24 +9,24 @@
 - [Question](#question)
 
 ## Description
-It's a usefor tool for readme file
+It's a tool for README
 
 ## Installation
 npm
 
 ## Usage
-picture later
+Walkthrough Video
 
 ## License
 [![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
 
 ## How to Contribute
-undefined
+None
 
 ## Tests
-it's good
+It's working
 
 ## Question
-- If you have any question, please feel free to email me..
+- If you have any question, please email me.
 - Github: [jasonccfu](https://github.com/jasonccfu)
 - Email: jason.ccfu@gmail.com 
